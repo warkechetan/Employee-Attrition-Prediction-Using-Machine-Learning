@@ -19,11 +19,11 @@ def result():
     educ={'Life Sciences':0,'Medical':1,'Marketing':2,'Technical Degree':3,'Human Resources':4,'Other':5}
     mar={'Single':0,'Married':1,'Divorced':2}
     if result['distance']=="":
-      result['distance']=0
+	result['distance']=0
     if result['workex']=="":
-      result['workex']=0
+	result['workex']=0
     if result['income']=="":
-      result['income']=0
+	result['income']=0
     a=[[bt[result['travel']],dept[result['dept']],int(result['distance']),
 gender[result['gender']],jobrole[result['jobrole']],educ[result['educ']],int(result['workex']),
 int(result['income']),mar[result['mar']]]]
